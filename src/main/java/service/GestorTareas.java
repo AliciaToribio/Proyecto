@@ -1,7 +1,7 @@
 package service;
 
-import ud4.proyecto.model.Tarea;
-import ud4.proyecto.util.TextoUtil;
+import model.Tarea;
+import util.TextoUtil;
 
 import java.util.ArrayList;
 import java.util.List;

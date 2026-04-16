@@ -1,6 +1,6 @@
 package service;
 
-import ud4.proyecto.model.Tarea;
+import model.Tarea;
 
 import java.util.HashMap;
 import java.util.List;

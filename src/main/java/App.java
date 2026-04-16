@@ -1,8 +1,6 @@
-package ud4.proyecto;
-
-import ud4.proyecto.model.Tarea;
-import ud4.proyecto.service.EstadisticasService;
-import ud4.proyecto.service.GestorTareas;
+import model.Tarea;
+import service.EstadisticasService;
+import service.GestorTareas;
 
 public class App {
     public static void main(String[] args) {
