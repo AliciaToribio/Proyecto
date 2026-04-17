@@ -1,4 +1,3 @@
-import model.Tarea;
 import service.EstadisticasService;
 import service.GestorTareas;
 
@@ -16,5 +15,6 @@ public class App {
         EstadisticasService estadisticas = new EstadisticasService();
         System.out.println("Porcentaje completadas: " + estadisticas.porcentajeCompletadas(gestor.getTareas()) + "%");
         System.out.println(estadisticas.generarMensajeSeguimiento(gestor.getTareas()));
+        System.out.println("bienvenida");
     }
 }
