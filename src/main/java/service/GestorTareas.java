@@ -34,6 +34,7 @@ public class GestorTareas {
         return resultado;
     }
 
+    //Comentario Lucia
     public int contarPendientes() {
         int contador = 0;
         for (Tarea tarea : tareas) {
