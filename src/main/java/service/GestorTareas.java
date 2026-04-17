@@ -54,6 +54,10 @@ public class GestorTareas {
         return builder.toString();
     }
 
+    public void alicia(){
+
+    }
+
     // Método ideal para conflicto de eliminar vs modificar.
     public boolean eliminarTareaPorId(int id) {
         for (Tarea tarea : tareas) {
