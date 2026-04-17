@@ -57,6 +57,8 @@ public class GestorTareas {
     public boolean eliminarTareaPorId(int id) {
         for (Tarea tarea : tareas) {
             if (tarea.getId() == id) {
+                /*Contenido modificado por Juan Antonio Perez Camacho*/
+                tareas.remove(tarea);
                 tareas.remove(tarea);
                 return true;
             }
