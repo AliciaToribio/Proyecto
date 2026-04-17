@@ -59,6 +59,7 @@ public class GestorTareas {
         for (Tarea tarea : tareas) {
             if (tarea.getId() == id) {
                 tareas.remove(tarea);
+                System.out.println("Hola");
                 return true;
             }
         }
