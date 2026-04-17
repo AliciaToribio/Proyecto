@@ -12,6 +12,7 @@ public class App {
 
         System.out.println("=== RESUMEN DEL PROYECTO ===");
         System.out.println(gestor.resumenProyecto());
+        //Hola Juani
 
         EstadisticasService estadisticas = new EstadisticasService();
         System.out.println("Porcentaje completadas: " + estadisticas.porcentajeCompletadas(gestor.getTareas()) + "%");
