@@ -17,4 +17,5 @@ public class App {
         System.out.println("Porcentaje completadas: " + estadisticas.porcentajeCompletadas(gestor.getTareas()) + "%");
         System.out.println(estadisticas.generarMensajeSeguimiento(gestor.getTareas()));
     }
+    /*Hola soy Juan Antonio Perez Camacho*/
 }
