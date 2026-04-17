@@ -25,7 +25,7 @@ public class Tarea {
 
     public String getEstado() {
         return estado;
-    }
+    } /*Hola soy Juan Antonio Perez Camacho*/
 
     public String getPrioridad() {
         return prioridad;
